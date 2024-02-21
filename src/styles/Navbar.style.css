@@ -1,0 +1,31 @@
+.navbar-container {
+  background-color: rgba(1, 1, 33, 0.745);
+  height: 40px;
+  position: relative;
+  z-index: 1;
+  margin-top: 50px;
+  padding-top: 15px;
+  border-radius: 10px;
+}
+.nav-list {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+
+.nav-item {
+  margin-right: 20px;
+}
+
+.nav-link {
+  display: inline-block;
+  color: white;
+  text-decoration: none;
+  margin-right: 20px;
+}
+
+.nav-link:hover {
+  color: #011420;
+}

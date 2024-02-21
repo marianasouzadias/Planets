@@ -5,7 +5,6 @@ import App from "./App";
 import ErrorPage from "./components/ErrorPage";
 import Home from "./components/Home";
 import PlanetList from "./components/PlanetList";
-import "./index.css";
 
 const router = createBrowserRouter([
   {
@@ -25,7 +24,7 @@ const router = createBrowserRouter([
   },
 ]);
 
-ReactDOM.createRoot(document.getElementById("root")).root.render(
+ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
     <RouterProvider router={router} />
   </React.StrictMode>

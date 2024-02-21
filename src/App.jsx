@@ -1,16 +1,17 @@
 import React from "react";
 import Navbar from "./components/Navbar";
-import PlanetList from "./components/PlanetList";
 import planets from "./data/planets.json";
+import "./styles/App.css";
 import { Outlet } from "react-router-dom";
 
 function App() {
   return (
-    <>
-      <Navbar planetsData={planets} />
-      <PlanetList />
-      <Outlet />
-    </>
+    <div className="background ">
+      <div className="stars">
+        <Navbar planetsData={planets} />
+        <Outlet />
+      </div>
+    </div>
   );
 }
 
